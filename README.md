@@ -18,7 +18,7 @@ As mentioned above, both the test sets and the development set were manually ann
 Your submissions will be evaluated using the Mean Average Precision (mAP) @ Intersection-over-Union (IoU) [0.50:0.95] metric, as used in the COCO object detection competition. In detail, we will calculate the average precision for a sequence of IoU thresholds ranging from 0.50 to 0.95 with a step size of 0.05. This metric is computed for every document category in the competition-dataset. Then the mean of the average precisions on all categories is computed as the final score.
 
 ## Submission
-We ask you to upload a JSON file in COCO results format here, with complete layout bounding-boxes for each page sample. The given image_ids must correspond to the ones we publish with the competition data-set's coco.json. For each submission you make, the computed mAP will be provided for each category as well as combined. The leaderboard will be ranked based on the overall mAP.
+We ask you to upload a TSV file in COCO results format (which is actually a JSON file, but the evaluation platform expects a TSV extension), with complete layout bounding-boxes for each page sample. The given image_ids must correspond to the ones we publish with the competition data-set's coco.json. For each submission you make, the computed mAP will be provided for each category as well as combined. The leaderboard will be ranked based on the overall mAP.
 
 ## Rules
 It is allowed to use additional publicly available third-party data, publicly available pre-trained models, or model ensembling for performance improvement.
