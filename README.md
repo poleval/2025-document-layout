@@ -21,5 +21,5 @@ Your submissions will be evaluated using the Mean Average Precision (mAP) @ Inte
 We ask you to upload a TSV file in COCO results format (which is actually a JSON file, but the evaluation platform expects a TSV extension), with complete layout bounding-boxes for each page sample. The given image_ids must correspond to the ones we publish with the competition data-set's coco.json. For each submission you make, the computed mAP will be provided for each category as well as combined. The leaderboard will be ranked based on the overall mAP.
 
 ## Rules
-It is allowed to use additional publicly available third-party data, publicly available pre-trained models, or model ensembling for performance improvement.
+It is allowed to use additional PUBLICLY available third-party data, PUBLICLY available pre-trained models, or model ensembling for performance improvement. It is forbidden to use undisclosed or commercial resources.
 Winning teams will be decided based on the rank in the leaderboard, which is determined by the mAP score.
